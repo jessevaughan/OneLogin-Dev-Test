@@ -1,4 +1,1 @@
-OneLogin-Dev-Test
-=================
-
-Quick recreation of legacy onelogin.com using Foundation
+Quick recreation of legacy onelogin.com using Foundation and Statamic
