@@ -1,0 +1,11 @@
+---
+first_name: Ian
+last_name: Andersen
+email: ian.andersen@onelogin.com
+roles:
+  - ""
+password_hash: >
+  $2a$08$7Q.dddiXt21KrX5FfFyBOu3x9hlc1nvP4mvZ8DN4bIqYPbAO5jCSm
+password: ""
+---
+This is the bio of Ian Andersen.

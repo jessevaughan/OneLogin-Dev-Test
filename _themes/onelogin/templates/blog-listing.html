@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="large-12 columns">
+    <h1>{{ title }}</h1>
+    {{ content }}
+
+    {{ entries:listing folder="blog" limit="5" sort_by="date" }}
+    <h3><a href="{{ url }}">{{ title }}</a></h3>
+    <h4>{{ date }} </h3>
+    {{ content|truncate:300 }}
+    {{ /entries:listing }}
+
+    {{ categories_url_list }}
+
+  </div>
+</div>

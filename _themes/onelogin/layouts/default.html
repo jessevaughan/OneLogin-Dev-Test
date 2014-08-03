@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }} | {{ _site_name }}</title>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ theme:css src="styles" }}">
+  <link rel="icon" type="image/png" href="{{ theme:img src="favicon.png" }}" />
+</head>
+<body>
+
+<div id="layout">
+  <header class="bg-white">
+    <div class="row">
+      <div class="large-3 columns" id="logo">
+        <a href="#"><img src="http://www.onelogin.com/wp-content/themes/onelogin/images/logo-onelogin-big.png" /></a>
+      </div>
+      <div class="large-9 columns">
+        <nav class="clearfix">
+          <ul class="clearfix" id="toolbar">
+            <li><a href="#">日本</a></li>
+            <li><a href="#"><i class="fa fa-rss-square"></i> Blog</a></li>
+            <li><a href="#"><i class="fa fa-plus-square"></i> Support</a></li>
+            <li><i class="fa fa-phone"></i> (855) 426-7227</li>
+          </ul>
+          <ul class="clearfix">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Start Your Free Trial</a></li>  
+          </ul>
+          <a href="#" id="pull">Menu</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+    {{ layout_content }}
+  
+  <div id='layout_footer'></div>
+</div>
+
+  <footer id="footer">
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="row">
+          <div class="large-6 columns">
+            <p>© Copyright no one at all. Go to town.</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+              <li><a href="#">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="{{ theme:js }}"></script>
+</body>
+</html>

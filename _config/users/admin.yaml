@@ -1,0 +1,14 @@
+---
+first_name: Jesse
+last_name: Vaughan
+roles:
+  - admin
+email: jesse.vaughan@onelogin.com
+password: ""
+username: admin
+password_hash: >
+  $2a$08$3cphv8krimZ..ighwnsu3.FzaeXtKu/UZWNKfmzlmTYsKX2LkKnkC
+---
+The username is the name of the yaml file. In this case it is "admin".
+
+Uncomment and set your password above and MAKE SURE TO ENCRYPT YOUR PASSWORD in the Control Panel, automatically triggered by logging in. You can reset your password by deleting the encrypted password field and adding a new plain text password, but always make sure to log in again to re-encrypt. All user accounts created in the Control Panel are encrypted by default.

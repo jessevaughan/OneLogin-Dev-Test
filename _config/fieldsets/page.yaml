@@ -1,0 +1,14 @@
+fields:
+  content-header:
+    type: text
+    display: Page Header
+  content:
+    display: Page Content
+    required: false
+    default:
+    type: markitup
+  content-two:
+    display: Page Content Two
+    required: false
+    default:
+    type: markitup

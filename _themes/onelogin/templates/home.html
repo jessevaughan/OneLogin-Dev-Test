@@ -1,0 +1,168 @@
+
+  
+<!-- End Header and Nav -->
+ 
+<!-- First Band (Slider) -->
+<section id="slider-wrap">
+  <div class="row">
+    <div class="large-12 columns">
+      <div id="slider">
+        <img src="http://placehold.it/1000x400&text=[ img 1 ]" />
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- Logos -->
+<div class="row">
+  <div class="large-12 columns">
+    <img src="http://www.onelogin.com/wp-content/themes/onelogin/images/carousel/carousel-logos-01.png">
+    <hr>
+  </div>
+</div>
+
+<!-- Intro Paragraph -->
+ 
+<div class="row">
+  <div class="large-12 columns">
+    <h1>{{ content-header }}</h1>
+    <p>{{ content }}</p>
+  </div>
+</div>
+
+<!-- Buzz Section -->
+
+<div class="row">
+  <div class="large-12 columns">
+    <hr>
+  </div>
+</div>
+
+<div class="row" id="buzz">
+  <div class="large-9 columns">
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h2>Recent Buzz</h2>
+      </div>
+    </div> <!-- end row -->
+
+    <div class="row" id="buzz">
+      <div class="large-3 columns">
+        <div class="logo">
+          <img src="http://www.onelogin.com/wp-content/images/forbes-logo.png">
+        </div>
+      </div>
+      <div class="large-9 columns">
+        <h4>"OneLogin recently raised $13M in its series B funding round, and is increasingly seen as one of the hot companies in the space."</h4>
+      </div>
+    </div> <!-- end row -->
+    <div class="row">
+      <div class="large-3 columns">
+        <div class="logo">
+          <img src="http://www.onelogin.com/wp-content/images/usa-today-logo.png">
+        </div>
+      </div>
+      <div class="large-9 columns">
+        <h4>"Pulitzer Prize winning reporter Byron Acohido interviews OneLogin CEO Thomas Pedersen on the merits of “good password hygiene."</h4>
+      </div>
+    </div> <!-- end row -->
+    <div class="row">
+      <div class="large-12 columns">
+        <a href="#">More Buzz <i class="fa fa-angle-double-right"></i></a>
+      </div>
+    </div> <!-- end row -->
+
+  </div> <!-- end large-9 -->
+
+  <div class="large-3 columns">
+    <p>Pandora evaluates Okta competitors and makes the switch to OneLogin</p>
+    <div><a class="wistia-popover[height=551,width=980]" href="http://fast.wistia.net/embed/iframe/wha4fm678w?autoPlay=true&amp;controlsVisibleOnLoad=true&amp;endVideoBehavior=reset&amp;popover=true&amp;version=v1&amp;videoHeight=551&amp;videoWidth=980&amp;volumeControl=true"><img alt="" src="http://www.onelogin.com/wp-content/themes/onelogin/images/thmb-pandora.png" /></a>
+    <script charset="ISO-8859-1" type="text/javascript" src="http://fast.wistia.com/static/popover-v1.js"></script></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-12 columns">
+    <hr>
+  </div>
+</div>
+
+<!-- Learn More Section -->
+
+<div class="row" id="links">
+  <div class="large-8 columns">
+
+    <div class="row">
+      <div class="large-4 columns">
+        <img src="http://www.onelogin.com/wp-content/themes/onelogin/images/icon-12-questions.png">
+      </div>
+      <div class="large-8 columns">
+        <h2>12 Questions You Must Ask Your Cloud SSO IAM Vendor</h2>
+        <p>Use these twelve questions to help you make an informed decision.<br><a href="#">Learn More <i class="fa fa-angle-double-right"></i></a></p>
+      </div>
+      <hr>
+    </div> <!-- end row -->
+    <div class="row">
+      <div class="large-4 columns">
+        <img src="http://www.onelogin.com/wp-content/themes/onelogin/images/icon-ipad-feature.png">
+      </div>
+      <div class="large-8 columns">
+        <h2>One-Click Access to Web Apps On The Go</h2>
+        <p>Allow mobile users to easily  move from desktop to laptop to iPad with the same network credentials.<br><a href="#">Learn More <i class="fa fa-angle-double-right"></i></a></p>
+      </div>
+      <hr>
+    </div> <!-- end row -->
+    <div class="row">
+      <div class="large-4 columns">
+        <img src="http://www.onelogin.com/wp-content/themes/onelogin/images/icon-otp-feature.png">
+      </div>
+      <div class="large-8 columns">
+        <h2>Mobile One-Time Password App</h2>
+        <p>OneLogin OTP lets users perform multi-factor authentication with a click of a button.<br><a href="#">Learn More <i class="fa fa-angle-double-right"></i></a></p>
+      </div>
+    </div> <!-- end row -->
+
+  </div>
+
+  <div class="large-4 columns">
+    <blockquote>
+      <img src="http://www.onelogin.com/wp-content/themes/onelogin/images/ts-netflix-logo.png">
+      <p>"I can roll out different applications to different groups of users while maintaining SOX controls. Having one set of credentials managed by IT and the end user is a huge win for both IT and the end user."<br>
+      <span>Mike Kail</span><br>
+      VP of IT Operations<br>
+      Netflix</p>
+    </blockquote>
+  </div>
+  <hr>
+</div>
+
+<!-- Sign Up Button -->
+
+<div class="row">
+  <div class="large-12 columns" id="homepage_offer">
+    <h2>Sign Up For A Free OneLogin Trial Today.</h2> <a class="button orange gradient trial-btn" href="/signup">Start Your Trial</a>
+  </div>
+</div>
+
+<div class="bg-white" id="homepage_subfooter">
+  <div class="row">
+    <div class="large-7 columns" id="homepage_blog">
+      <h3>Bloggin' About Login</h3>
+
+        <ul>
+          {{ entries:listing folder="blog" limit="3" sort_by="date"  conditions="author:ianandersen, categories:sso" }}
+            <li>
+              <p>Posted {{ date }}</p>
+              <a href="{{ url }}">{{ title }}</a>
+            </li>
+          {{ /entries:listing}}
+            <li><a href="#">Read more <i class="fa fa-angle-double-right"></i></a></li>
+        </ul>
+
+    </div>
+    <div class="large-5 columns">
+      report
+    </div>
+  </div>
+</div>
